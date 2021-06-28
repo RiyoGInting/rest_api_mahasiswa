@@ -185,7 +185,7 @@ class KrsController {
       });
 
       return res.status(201).json({
-        message: "Student data has been successfully updated",
+        message: "KRS has been successfully updated",
         data,
       });
     } catch (error) {
