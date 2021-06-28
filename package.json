@@ -1,0 +1,27 @@
+{
+  "name": "rest_api_mahasiswa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyoGInting/rest_api_mahasiswa.git"
+  },
+  "author": "Riyo Ginting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RiyoGInting/rest_api_mahasiswa/issues"
+  },
+  "homepage": "https://github.com/RiyoGInting/rest_api_mahasiswa#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4",
+    "validator": "^13.6.0"
+  }
+}
